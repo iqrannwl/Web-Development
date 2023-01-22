@@ -1,0 +1,109 @@
+body{
+    font-family:sans-serif;
+    font-size:16px;
+}
+/* Group and list Selector in css*/
+
+h1,
+h2,
+h3{
+    color:#1098ad; /*Css property*/
+} 
+/* Element Selector in css*/
+h1{
+    font-size:26px;
+    font-style:italic;
+    text-transform:uppercase;
+}
+h2{
+    font-size:40px;
+}
+h3{
+    font-size:30px;
+}
+h4{
+    font-size:20px;
+    text-align:center;
+    text-transform:uppercase;
+}
+p{
+    font-size:22px;
+    line-height:1.5;
+}
+li{
+    font-size:20px;
+}
+aside{
+
+    border-top:5px solid #1098ad;
+    border-bottom:5px solid #1098ad;
+    background-color:#f7f7f7;
+    transition:border .5s ease-in-out;
+}
+
+/* Decentend Selector in css*/
+/* footer p{
+    font-size:16px;
+} */
+
+/* article header p{
+    font-style:italic;
+} */
+
+
+/* ID selector  in CSS*/
+#copyright{
+    font-size:16px;
+}
+
+/* Class Selector in css */
+.main-header{
+    background-color:#f7f7f7;
+}
+.related{
+    list-style:none;
+}
+.related-author{
+    font-size:16px;
+    font-weight:bold;
+}
+
+/* psudo Class selector in css */
+
+/* li:first-child{
+    color:olive;
+}
+li:last-child{
+    color:goldenrod;
+}
+li:nth-child(2){
+    color:crimson;
+} 
+
+li:nth-child(even){
+    color:#1098ad;
+}
+
+li:nth-child(odd){
+    color:#1098ad;
+}
+*/
+
+
+/* Styling links in the web page */
+
+/* LVHA */
+a:link{
+    color:#1098ad;
+    text-decoration:none;
+}
+a:visited{
+    color:#1098ad;
+}
+a:hover{
+    color:orangered;
+    text-decoration:underline wavy #1098ad;
+}
+a:active{
+    background-color:#000;
+}
